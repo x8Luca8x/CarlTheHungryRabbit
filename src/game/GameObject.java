@@ -1,8 +1,9 @@
 package game;
 
+import javax.swing.*;
 import java.util.UUID;
 
-public class GameObject
+public abstract class GameObject
 {
     private int objectRow;
     private int objectColumn;
@@ -91,4 +92,6 @@ public class GameObject
     {
         return GameMode.getGameModeFromForm();
     }
+
+    public abstract JComponent getRenderComponent();
 }

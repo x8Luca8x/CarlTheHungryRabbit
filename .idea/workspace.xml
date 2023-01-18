@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="124f034d-b6d0-499b-8f22-568150344b08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CarlTheHungryRabbit.iml" afterDir="false" />
+    <list default="true" id="124f034d-b6d0-499b-8f22-568150344b08" name="Changes" comment="Initial">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/GameConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/GameMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/GameObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameObjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/GameWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/PlayerCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/PlayerCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/GameLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/GameLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/forms/FormManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/forms/FormManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/forms/GameForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/forms/GameForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,18 +40,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lucaf\IdeaProjects\CarlTheHungryRabbit" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -71,11 +82,36 @@
       <option name="presentableId" value="Default" />
       <updated>1673973670488</updated>
       <workItem from="1673973671496" duration="2608000" />
-      <workItem from="1673987275790" duration="3542000" />
+      <workItem from="1673987275790" duration="3901000" />
+      <workItem from="1674051484074" duration="1929000" />
+      <workItem from="1674053447684" duration="4572000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial">
+      <created>1673991170181</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673991170181</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
   </component>
 </project>

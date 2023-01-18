@@ -18,6 +18,8 @@ public class FormManager
         currentForm = newForm;
 
         window.changeContentPane((GamePanel)currentForm);
+
+        window.getGamePanelInstance().revalidate();
         window.getGamePanelInstance().repaint();
 
         currentForm.onShow();

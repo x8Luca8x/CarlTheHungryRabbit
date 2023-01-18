@@ -1,9 +1,10 @@
 package ui.forms;
 
-import game.GameConstants;
 import game.GameMode;
 import ui.GameLayout;
 import ui.GamePanel;
+
+import java.awt.*;
 
 public class GameForm extends GamePanel implements FormBase
 {
@@ -12,12 +13,8 @@ public class GameForm extends GamePanel implements FormBase
     @Override
     public void initializeComponents()
     {
-        GameLayout layout = new GameLayout();
-
-        layout.setRows(GameConstants.FIELD_ROWS);
-        layout.setColumns(GameConstants.FIELD_COLUMNS);
-
-        setLayout(layout);
+        setLayout(new GameLayout());
+        setBackground(Color.decode("#1cca16"));
     }
 
     @Override
@@ -29,7 +26,7 @@ public class GameForm extends GamePanel implements FormBase
     @Override
     public void onShow()
     {
-
+        gameMode.getGameObjectManager().renderGameObjects();
     }
 
     @Override
