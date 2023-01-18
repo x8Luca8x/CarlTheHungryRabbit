@@ -17,6 +17,7 @@ public class GameWrapper
 
     public static GameForm getGameForm()
     {
+        assert UIManager.getInstance().getFormManager().getCurrentForm() instanceof GameForm;
         return (GameForm)UIManager.getInstance().getFormManager().getCurrentForm();
     }
 }

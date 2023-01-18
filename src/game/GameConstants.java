@@ -52,10 +52,10 @@ public class GameConstants
     {
         return switch (moveBtnType)
                 {
-                    case UP -> new JButton("UP");
-                    case DOWN -> new JButton("DOWN");
-                    case LEFT -> new JButton("LEFT");
-                    case RIGHT -> new JButton("RIGHT");
+                    case UP -> new JButton("Hoch");
+                    case DOWN -> new JButton("Runter");
+                    case LEFT -> new JButton("Links");
+                    case RIGHT -> new JButton("Richts");
                 };
 
     }
