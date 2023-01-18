@@ -25,13 +25,13 @@ public class GameMode
         for(int i = 0; i < 4; ++i)
         {
             var location = gameObjectManager.getEmptyRandomLocation();
-            spawnNewCarrot(location.row, location.column);
+            spawnNewCarrot(location.row(), location.column());
         }
 
         for(int i = 0; i < 4; ++i)
         {
             var location = gameObjectManager.getEmptyRandomLocation();
-            spawnNewGrass(location.row, location.column);
+            spawnNewGrass(location.row(), location.column());
         }
     }
 
@@ -80,7 +80,7 @@ public class GameMode
         gameObjectManager.destroyGameObject(carrotObject);
 
         var location = gameObjectManager.getEmptyRandomLocation();
-        spawnNewCarrot(location.row, location.column);
+        spawnNewCarrot(location.row(), location.column());
     }
 
     public void onGameObjectMoved(GameObject gameObject)

@@ -6,22 +6,11 @@ import ui.forms.GameForm;
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
-import java.util.Random;
 import java.util.UUID;
 
 public class GameObjectManager
 {
-    public class RandomLocationResult
-    {
-        public final int row;
-        public final int column;
-
-        public RandomLocationResult(int row, int column)
-        {
-            this.row = row;
-            this.column = column;
-        }
-    }
+    public record RandomLocationResult(int row, int column) { }
 
     private final ArrayList<GameObject> gameObjects = new ArrayList<>();
 
