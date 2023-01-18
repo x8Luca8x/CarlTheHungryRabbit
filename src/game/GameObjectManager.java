@@ -165,26 +165,13 @@ public class GameObjectManager
             gameObject.setObjectRow(row);
             gameObject.setObjectColumn(column);
 
-            gameObject.markRenderStateDirty();
             owningGameMode.onGameObjectMoved(gameObject);
-
             renderGameObjects();
+
             return true;
         }
 
         return false;
-    }
-
-    public ArrayList<GameObject> getDirtyGameObjets()
-    {
-        ArrayList<GameObject> dirtyGameObjects = new ArrayList<>();
-        for (GameObject gameObject : gameObjects)
-        {
-            if (gameObject.isRenderStateDirty())
-                dirtyGameObjects.add(gameObject);
-        }
-
-        return dirtyGameObjects;
     }
 
     public RandomLocationResult getRandomLocation()
@@ -271,11 +258,6 @@ public class GameObjectManager
 
         gameForm.revalidate();
         gameForm.repaint();
-
-        // TODO: Remove dirty state
-        ArrayList<GameObject> dirtyGameObjects = getDirtyGameObjets();
-        for (GameObject dirtyGameObject : dirtyGameObjects)
-            dirtyGameObject.markRenderStateClean();
 
         return true;
     }

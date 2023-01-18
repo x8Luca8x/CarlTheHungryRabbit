@@ -9,7 +9,6 @@ public abstract class GameObject
     private int objectColumn;
 
     private boolean bIsCollisionEnabled = true;
-    private boolean bIsRenderStateDirty = false;
 
     private final UUID objectId;
 
@@ -51,21 +50,6 @@ public abstract class GameObject
     public void setIsCollisionEnabled(boolean bIsCollisionEnabled)
     {
         this.bIsCollisionEnabled = bIsCollisionEnabled;
-    }
-
-    public boolean isRenderStateDirty()
-    {
-        return bIsRenderStateDirty;
-    }
-
-    public void markRenderStateDirty()
-    {
-        bIsRenderStateDirty = true;
-    }
-
-    public void markRenderStateClean()
-    {
-        bIsRenderStateDirty = false;
     }
 
     public void moveUp()
